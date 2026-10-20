@@ -1,0 +1,1902 @@
+{
+  "source_repository": "DenisMekh/BrandRadar",
+  "source_commit": "4254f75ee158098b61b7a5ea061254246c7be84e",
+  "file_count": 379,
+  "files": [
+    {
+      "source_path": "backend/cmd/app/main.go",
+      "destination_path": "backend/cmd/app/main.go",
+      "sha": "96ced290499306ae21184d875ceca5eff1ebfd68"
+    },
+    {
+      "source_path": "LICENSE",
+      "destination_path": "LICENSE.brandradar",
+      "sha": "865bebebc41a60676dd212d9c665884cc031fe7a"
+    },
+    {
+      "source_path": "backend/Makefile",
+      "destination_path": "backend/Makefile",
+      "sha": "fe30bd557edd33da04d4e40b1e5f3bd6f8d6ee3e"
+    },
+    {
+      "source_path": "backend/.dockerignore",
+      "destination_path": "backend/.dockerignore",
+      "sha": "ea6fff99d9d3a361f1566abfbfca9729b746225c"
+    },
+    {
+      "source_path": "backend/.env.example",
+      "destination_path": "backend/.env.example",
+      "sha": "bf1a61657f5fce30ee8650ebe0e85a11347c133f"
+    },
+    {
+      "source_path": "backend/Dockerfile",
+      "destination_path": "backend/Dockerfile",
+      "sha": "bb4b96c6be0ddad60a212fcfa7fa0c268d0ef426"
+    },
+    {
+      "source_path": "backend/.golangci.yml",
+      "destination_path": "backend/.golangci.yml",
+      "sha": "1861520a5dea53ea0384cc585e70eae8f2d0373d"
+    },
+    {
+      "source_path": ".gitignore",
+      "destination_path": "docs/upstream/BrandRadar.gitignore",
+      "sha": "3a0cb610c356d6505059830111cbe2bcdc3cb285"
+    },
+    {
+      "source_path": "README.md",
+      "destination_path": "docs/upstream/BrandRadar-README.md",
+      "sha": "e55bcea9492b17f3386a9d8427bcac1ecaa9899b"
+    },
+    {
+      "source_path": "backend/README.md",
+      "destination_path": "backend/README.md",
+      "sha": "bfe65282a55608042e4f30b5896d95c0be3f8028"
+    },
+    {
+      "source_path": "backend/config/config.yml",
+      "destination_path": "backend/config/config.yml",
+      "sha": "5abf17d19fb55b94ba97315898616e21a3fe559f"
+    },
+    {
+      "source_path": "backend/go.sum",
+      "destination_path": "backend/go.sum",
+      "sha": "363b6e86cc11574c2777255da3eb82445a60dd6a"
+    },
+    {
+      "source_path": "backend/internal/analytics/crawler/deduplicate.go",
+      "destination_path": "backend/internal/analytics/crawler/deduplicate.go",
+      "sha": "d5a5768af5ff31fa80086d2dafcf3acef3c2f1f8"
+    },
+    {
+      "source_path": "backend/docker-compose.dev.yml",
+      "destination_path": "backend/docker-compose.dev.yml",
+      "sha": "e7828cd438dd2382380c403a153b25751201761b"
+    },
+    {
+      "source_path": "backend/docker-compose.yml",
+      "destination_path": "backend/docker-compose.yml",
+      "sha": "a6b2c358c2e225c473ca78bea8ae1ec86b1943e2"
+    },
+    {
+      "source_path": "backend/internal/analytics/crawler/source_reader.go",
+      "destination_path": "backend/internal/analytics/crawler/source_reader.go",
+      "sha": "e3aadef9e55976c3ce867893d03b53cc7c986d5e"
+    },
+    {
+      "source_path": "backend/docker-compose.prod.yml",
+      "destination_path": "backend/docker-compose.prod.yml",
+      "sha": "293e6a6d1120abb134184a1dcf2cebd1963d7f4c"
+    },
+    {
+      "source_path": "backend/go.mod",
+      "destination_path": "backend/go.mod",
+      "sha": "b589cbb0be53da1c80c71acc64e93e08284f3217"
+    },
+    {
+      "source_path": "backend/internal/analytics/crawler/telegram.go",
+      "destination_path": "backend/internal/analytics/crawler/telegram.go",
+      "sha": "9327ea8183c3af407d5cf227b6c4f784f9af30f5"
+    },
+    {
+      "source_path": "backend/internal/analytics/crawler/deduplicate_test.go",
+      "destination_path": "backend/internal/analytics/crawler/deduplicate_test.go",
+      "sha": "226aa448129287e4411fd5c39f5bd6cfb33c44d0"
+    },
+    {
+      "source_path": "backend/internal/analytics/crawler/web.go",
+      "destination_path": "backend/internal/analytics/crawler/web.go",
+      "sha": "43f0484f0867421cf6a002590bcadfbe2b1f4701"
+    },
+    {
+      "source_path": "backend/internal/analytics/crawler/web_test.go",
+      "destination_path": "backend/internal/analytics/crawler/web_test.go",
+      "sha": "6d76580840f4328d87f22db53f6ff923e4b5b2a8"
+    },
+    {
+      "source_path": "backend/internal/analytics/crawler/item.go",
+      "destination_path": "backend/internal/analytics/crawler/item.go",
+      "sha": "e396ccc52eb2195d0d3af980620b32c408f2c686"
+    },
+    {
+      "source_path": "backend/internal/analytics/worker.go",
+      "destination_path": "backend/internal/analytics/worker.go",
+      "sha": "a97ff5bf038e877903b672f2072da565f3a7b1b9"
+    },
+    {
+      "source_path": "backend/internal/analytics/crawler/telegram_test.go",
+      "destination_path": "backend/internal/analytics/crawler/telegram_test.go",
+      "sha": "76795a27015dfb0af332b69116da28de8a1e0c34"
+    },
+    {
+      "source_path": "backend/internal/anomalies/confidence_interval.go",
+      "destination_path": "backend/internal/anomalies/confidence_interval.go",
+      "sha": "f98de22831653a0fdb95c190aba53330c4ba0f48"
+    },
+    {
+      "source_path": "backend/internal/anomalies/worker.go",
+      "destination_path": "backend/internal/anomalies/worker.go",
+      "sha": "cd60b5e315ad4b0968915f9046b591d4eb0f59a1"
+    },
+    {
+      "source_path": "backend/internal/app/app.go",
+      "destination_path": "backend/internal/app/app.go",
+      "sha": "d179c29b44d46c7c342d2db81b1eedf6aa62bfb9"
+    },
+    {
+      "source_path": "backend/internal/client/client.go",
+      "destination_path": "backend/internal/client/client.go",
+      "sha": "d0499726e48ad2871ca2c9996663af05ac073c4b"
+    },
+    {
+      "source_path": "backend/internal/client/sentiment_ml/v1/dto/cluster.go",
+      "destination_path": "backend/internal/client/sentiment_ml/v1/dto/cluster.go",
+      "sha": "252655367662176033d89494b6a065ade03ec52e"
+    },
+    {
+      "source_path": "backend/internal/client/sentiment_ml/v1/client.go",
+      "destination_path": "backend/internal/client/sentiment_ml/v1/client.go",
+      "sha": "6053c960e2b6ffa6ebbb3076cc0291e9898954c6"
+    },
+    {
+      "source_path": "backend/internal/config/config_test.go",
+      "destination_path": "backend/internal/config/config_test.go",
+      "sha": "9ad8d6c645301312239ca3f3f3daf417aa45fc32"
+    },
+    {
+      "source_path": "backend/internal/controller/http/v1/alert.go",
+      "destination_path": "backend/internal/controller/http/v1/alert.go",
+      "sha": "9aac1c96b19c46658e17f163e5a56e8fa6ece506"
+    },
+    {
+      "source_path": "backend/internal/controller/http/v1/alert_handler_test.go",
+      "destination_path": "backend/internal/controller/http/v1/alert_handler_test.go",
+      "sha": "ac2a09a55df30ce6a815c73823099d5adec62171"
+    },
+    {
+      "source_path": "backend/internal/config/config.go",
+      "destination_path": "backend/internal/config/config.go",
+      "sha": "6a9ea052bbf0c4c2f97fa593ddb2f5336c4adf1f"
+    },
+    {
+      "source_path": "backend/internal/controller/http/v1/dashboard.go",
+      "destination_path": "backend/internal/controller/http/v1/dashboard.go",
+      "sha": "60bee9f5a9f9699c657d88055270341879d9d132"
+    },
+    {
+      "source_path": "backend/internal/controller/http/v1/brand_handler_test.go",
+      "destination_path": "backend/internal/controller/http/v1/brand_handler_test.go",
+      "sha": "c7a21f0a5393fb72c071efad5b17f215ceb5f585"
+    },
+    {
+      "source_path": "backend/internal/client/sentiment_ml/v1/dto/relevance.go",
+      "destination_path": "backend/internal/client/sentiment_ml/v1/dto/relevance.go",
+      "sha": "8b5a577c6f5fc86ad2f3f18f13d14463af094ef6"
+    },
+    {
+      "source_path": "backend/internal/clustering/worker.go",
+      "destination_path": "backend/internal/clustering/worker.go",
+      "sha": "65172ce9a0ac13c7657e51fd7b394ee251d155a5"
+    },
+    {
+      "source_path": "backend/internal/controller/http/v1/brand.go",
+      "destination_path": "backend/internal/controller/http/v1/brand.go",
+      "sha": "db16d619a209a40c1c0b658c8c28b452181e2f0f"
+    },
+    {
+      "source_path": "backend/internal/client/sentiment_ml/v1/dto/sentiment.go",
+      "destination_path": "backend/internal/client/sentiment_ml/v1/dto/sentiment.go",
+      "sha": "82ead2f90b896c67e6093754ca465da170f16991"
+    },
+    {
+      "source_path": "backend/internal/controller/http/v1/dto/alert.go",
+      "destination_path": "backend/internal/controller/http/v1/dto/alert.go",
+      "sha": "b5dd6323ad79ce3eee8d8a4668159e9f529b713c"
+    },
+    {
+      "source_path": "backend/internal/controller/http/v1/dto/dashboard.go",
+      "destination_path": "backend/internal/controller/http/v1/dto/dashboard.go",
+      "sha": "03c820ad4d0abdaeec48fb2e11dd098f3b2fd91c"
+    },
+    {
+      "source_path": "backend/internal/controller/http/v1/dto/health.go",
+      "destination_path": "backend/internal/controller/http/v1/dto/health.go",
+      "sha": "c4987d93313ba522f544923d74bbd1965f873b1d"
+    },
+    {
+      "source_path": "backend/internal/controller/http/v1/dto/event.go",
+      "destination_path": "backend/internal/controller/http/v1/dto/event.go",
+      "sha": "4d8734a0bd30bf39389461826752de497843451f"
+    },
+    {
+      "source_path": "backend/internal/controller/http/v1/dto/mock.go",
+      "destination_path": "backend/internal/controller/http/v1/dto/mock.go",
+      "sha": "f5e99950fd97753f04a00315f00fe2ca3e29c477"
+    },
+    {
+      "source_path": "backend/internal/controller/http/v1/dashboard_handler_test.go",
+      "destination_path": "backend/internal/controller/http/v1/dashboard_handler_test.go",
+      "sha": "5b34a7d79d7e00ee63fa6db46c9d99a7796f3337"
+    },
+    {
+      "source_path": "backend/internal/controller/http/v1/dto/brand.go",
+      "destination_path": "backend/internal/controller/http/v1/dto/brand.go",
+      "sha": "41a292866bbb91581565a3a792e609c2cfcb59c1"
+    },
+    {
+      "source_path": "backend/internal/controller/http/v1/dto/mention.go",
+      "destination_path": "backend/internal/controller/http/v1/dto/mention.go",
+      "sha": "861c63ad240d093d16f3cea2495c9dd1f30ea7ad"
+    },
+    {
+      "source_path": "backend/internal/controller/http/v1/dto/source.go",
+      "destination_path": "backend/internal/controller/http/v1/dto/source.go",
+      "sha": "ccbf5d4824951fcdeb644525f94480a5d3f3cbd7"
+    },
+    {
+      "source_path": "backend/internal/controller/http/v1/dto/swagger.go",
+      "destination_path": "backend/internal/controller/http/v1/dto/swagger.go",
+      "sha": "8270a11571b624d790d9ac99dec621e03826a62c"
+    },
+    {
+      "source_path": "backend/internal/controller/http/v1/event.go",
+      "destination_path": "backend/internal/controller/http/v1/event.go",
+      "sha": "3602100d797b707116652ff702fb8e417c533bca"
+    },
+    {
+      "source_path": "backend/internal/controller/http/v1/event_handler_test.go",
+      "destination_path": "backend/internal/controller/http/v1/event_handler_test.go",
+      "sha": "c20a19ea501fe3c466a298b54793347b4ee922f1"
+    },
+    {
+      "source_path": "backend/internal/controller/http/v1/dto/pagination.go",
+      "destination_path": "backend/internal/controller/http/v1/dto/pagination.go",
+      "sha": "f1050b3169f28d2be8a59b788c3bfbf862eea470"
+    },
+    {
+      "source_path": "backend/internal/controller/http/v1/health.go",
+      "destination_path": "backend/internal/controller/http/v1/health.go",
+      "sha": "956f7fd3b33d38d153feb0fcda504eb5a9cd2991"
+    },
+    {
+      "source_path": "backend/internal/controller/http/v1/dto/pagination_test.go",
+      "destination_path": "backend/internal/controller/http/v1/dto/pagination_test.go",
+      "sha": "fb1541fac8f6366f1f9dd4a5f7475a9f0ab4e6ad"
+    },
+    {
+      "source_path": "backend/internal/controller/http/v1/mapper.go",
+      "destination_path": "backend/internal/controller/http/v1/mapper.go",
+      "sha": "c2bf19fc062a31b0142e745f49f299d66b0fa939"
+    },
+    {
+      "source_path": "backend/internal/controller/http/v1/health_handler_test.go",
+      "destination_path": "backend/internal/controller/http/v1/health_handler_test.go",
+      "sha": "9bb97240aa2c785db47a6406e11de81375fd6349"
+    },
+    {
+      "source_path": "backend/internal/controller/http/v1/mapper_test.go",
+      "destination_path": "backend/internal/controller/http/v1/mapper_test.go",
+      "sha": "cc54370d749a0ac32936535e6983c62ffa1e1c65"
+    },
+    {
+      "source_path": "backend/internal/controller/http/v1/mention.go",
+      "destination_path": "backend/internal/controller/http/v1/mention.go",
+      "sha": "cab425df78c063ad867e1f7157c94ecbab851055"
+    },
+    {
+      "source_path": "backend/internal/controller/http/v1/mention_handler_test.go",
+      "destination_path": "backend/internal/controller/http/v1/mention_handler_test.go",
+      "sha": "d7a47536713ead60f26e9d0e386d49723e0e9361"
+    },
+    {
+      "source_path": "backend/internal/controller/http/v1/mock.go",
+      "destination_path": "backend/internal/controller/http/v1/mock.go",
+      "sha": "6ed07f75c89fc882dadbe6d7047254fca917c1c6"
+    },
+    {
+      "source_path": "backend/internal/controller/http/v1/response_test.go",
+      "destination_path": "backend/internal/controller/http/v1/response_test.go",
+      "sha": "829e60687659d749d8bb4ee52d0bc824fc788cea"
+    },
+    {
+      "source_path": "backend/internal/controller/http/v1/response.go",
+      "destination_path": "backend/internal/controller/http/v1/response.go",
+      "sha": "9c8e5260d3cd8e5fd9f9bc5f7e9f70839ed1bfd2"
+    },
+    {
+      "source_path": "backend/internal/controller/http/v1/source.go",
+      "destination_path": "backend/internal/controller/http/v1/source.go",
+      "sha": "b234ed9b3984de6e9ce8eee89183b6f659ddf146"
+    },
+    {
+      "source_path": "backend/internal/controller/http/v1/source_handler_test.go",
+      "destination_path": "backend/internal/controller/http/v1/source_handler_test.go",
+      "sha": "a497d5f98fb287e9836d5f18520a00066695bcf4"
+    },
+    {
+      "source_path": "backend/internal/controller/http/v1/router.go",
+      "destination_path": "backend/internal/controller/http/v1/router.go",
+      "sha": "d0fd69a9728dce4b682c7d225f709f46d7e22800"
+    },
+    {
+      "source_path": "backend/internal/entity/brand.go",
+      "destination_path": "backend/internal/entity/brand.go",
+      "sha": "9cf4d306db9df58eca39e0228e8566a4845db195"
+    },
+    {
+      "source_path": "backend/internal/entity/dashboard.go",
+      "destination_path": "backend/internal/entity/dashboard.go",
+      "sha": "703c715bde800f55423a88b49f5f33c9056c336d"
+    },
+    {
+      "source_path": "backend/internal/entity/event.go",
+      "destination_path": "backend/internal/entity/event.go",
+      "sha": "9979fdf890449096dfcc0f3c87c00c7f5d46b814"
+    },
+    {
+      "source_path": "backend/internal/entity/dashboard_test.go",
+      "destination_path": "backend/internal/entity/dashboard_test.go",
+      "sha": "1ba91eacb4a97ef9741a881c5a3ac01aa81b52f1"
+    },
+    {
+      "source_path": "backend/internal/entity/errors.go",
+      "destination_path": "backend/internal/entity/errors.go",
+      "sha": "918dbffa6b841c2ba640700f1826de36fac4cb7a"
+    },
+    {
+      "source_path": "backend/internal/entity/alert.go",
+      "destination_path": "backend/internal/entity/alert.go",
+      "sha": "e9043808946037b39270caee3546e6fd08d6f518"
+    },
+    {
+      "source_path": "backend/internal/entity/analytics.go",
+      "destination_path": "backend/internal/entity/analytics.go",
+      "sha": "112bd7e2363cfba85e8c688bc55b5c5e39919e5e"
+    },
+    {
+      "source_path": "backend/internal/entity/ingest.go",
+      "destination_path": "backend/internal/entity/ingest.go",
+      "sha": "fbd12d30333493764e277a5bfb212e7bbfebf53d"
+    },
+    {
+      "source_path": "backend/internal/entity/mention_test.go",
+      "destination_path": "backend/internal/entity/mention_test.go",
+      "sha": "dc0c003f821c213609692ab903427dad77e86c72"
+    },
+    {
+      "source_path": "backend/internal/entity/mention.go",
+      "destination_path": "backend/internal/entity/mention.go",
+      "sha": "b247a8ca6d938767db5a0960802d4600c5998456"
+    },
+    {
+      "source_path": "backend/internal/entity/source.go",
+      "destination_path": "backend/internal/entity/source.go",
+      "sha": "ab13781440d8f95952817b8d136307c7db15693d"
+    },
+    {
+      "source_path": "backend/internal/metrics/business.go",
+      "destination_path": "backend/internal/metrics/business.go",
+      "sha": "3808ae86329dddf4074d5089ed3c5e86d4719333"
+    },
+    {
+      "source_path": "backend/internal/metrics/business_test.go",
+      "destination_path": "backend/internal/metrics/business_test.go",
+      "sha": "f4c1a7ccaf40a8f26d061c786c3186c43d557418"
+    },
+    {
+      "source_path": "backend/internal/entity/source_test.go",
+      "destination_path": "backend/internal/entity/source_test.go",
+      "sha": "277790add1b2b7643abe64468cebe3e89ef1e2b3"
+    },
+    {
+      "source_path": "backend/internal/entity/relevance.go",
+      "destination_path": "backend/internal/entity/relevance.go",
+      "sha": "add39750392d2bafe77e332f375914d50c813374"
+    },
+    {
+      "source_path": "backend/internal/middleware/logging_test.go",
+      "destination_path": "backend/internal/middleware/logging_test.go",
+      "sha": "7ffeb4d2e0375d49428397d05844245358e5c120"
+    },
+    {
+      "source_path": "backend/internal/middleware/logging.go",
+      "destination_path": "backend/internal/middleware/logging.go",
+      "sha": "25e7447b748d977b0ab802cd9abf0428aeef6f8f"
+    },
+    {
+      "source_path": "backend/internal/middleware/metrics.go",
+      "destination_path": "backend/internal/middleware/metrics.go",
+      "sha": "a6006af34df0f5ac3eef2522e2bd51e0d57845f2"
+    },
+    {
+      "source_path": "backend/internal/middleware/metrics_test.go",
+      "destination_path": "backend/internal/middleware/metrics_test.go",
+      "sha": "6ea01f6be2f0bf94f6a9cd7c230aa5e6067e8c94"
+    },
+    {
+      "source_path": "backend/internal/middleware/rate_limit.go",
+      "destination_path": "backend/internal/middleware/rate_limit.go",
+      "sha": "d2c11b8b7a51dfed009d08080000525d994e11c1"
+    },
+    {
+      "source_path": "backend/internal/middleware/rate_limit_test.go",
+      "destination_path": "backend/internal/middleware/rate_limit_test.go",
+      "sha": "b9abdaa5ef0ceb412701c9115dfd3d771c5a0c54"
+    },
+    {
+      "source_path": "backend/internal/middleware/middleware_test.go",
+      "destination_path": "backend/internal/middleware/middleware_test.go",
+      "sha": "9aae1426d3596048b3320fe649976fbc5c2c190e"
+    },
+    {
+      "source_path": "backend/internal/middleware/requestid.go",
+      "destination_path": "backend/internal/middleware/requestid.go",
+      "sha": "54ee3d34d70350f42a192ce29b9a5e00f5dcbce1"
+    },
+    {
+      "source_path": "backend/internal/notify/telegram.go",
+      "destination_path": "backend/internal/notify/telegram.go",
+      "sha": "31e91a9b732862616f090f65530a41e75bae3c04"
+    },
+    {
+      "source_path": "backend/internal/repo/healthcheck/checkers.go",
+      "destination_path": "backend/internal/repo/healthcheck/checkers.go",
+      "sha": "44d2cdd165f9ad1b9a5e05c2958f342661612160"
+    },
+    {
+      "source_path": "backend/internal/repo/healthcheck/checkers_test.go",
+      "destination_path": "backend/internal/repo/healthcheck/checkers_test.go",
+      "sha": "1a196e8c3d869f8d7e76845937883ebcdc49c315"
+    },
+    {
+      "source_path": "backend/internal/repo/pgrepo/alert_config.go",
+      "destination_path": "backend/internal/repo/pgrepo/alert_config.go",
+      "sha": "bd317c18de7b25db1f4436583c2b8fd1483c8042"
+    },
+    {
+      "source_path": "backend/internal/repo/pgrepo/alert_config_test.go",
+      "destination_path": "backend/internal/repo/pgrepo/alert_config_test.go",
+      "sha": "d6df11094e65ae3f4cfd171b855f53e382c7676f"
+    },
+    {
+      "source_path": "backend/internal/repo/pgrepo/alert.go",
+      "destination_path": "backend/internal/repo/pgrepo/alert.go",
+      "sha": "930fd06e3f626238e389ba995b77c3e2e4ef7a15"
+    },
+    {
+      "source_path": "backend/internal/repo/pgrepo/analytics.go",
+      "destination_path": "backend/internal/repo/pgrepo/analytics.go",
+      "sha": "ed09a617ddd28d822c7b0260ca97910cb09c58a7"
+    },
+    {
+      "source_path": "backend/internal/repo/pgrepo/alert_repo_test.go",
+      "destination_path": "backend/internal/repo/pgrepo/alert_repo_test.go",
+      "sha": "c14cf3d62422da88fb49ee82fd9b2464c613115f"
+    },
+    {
+      "source_path": "backend/internal/repo/pgrepo/brand.go",
+      "destination_path": "backend/internal/repo/pgrepo/brand.go",
+      "sha": "7c0028f4a07da2edcb66b4ab5853fad8660d5ae1"
+    },
+    {
+      "source_path": "backend/internal/repo/pgrepo/brand_repo_test.go",
+      "destination_path": "backend/internal/repo/pgrepo/brand_repo_test.go",
+      "sha": "cd0b9ca139f696c25fd5d5710af639c440d701db"
+    },
+    {
+      "source_path": "backend/internal/repo/pgrepo/clustering.go",
+      "destination_path": "backend/internal/repo/pgrepo/clustering.go",
+      "sha": "9b4d627028f763f6c605b324b2eab9e55b3a380d"
+    },
+    {
+      "source_path": "backend/internal/repo/pgrepo/alert_config_repo_test.go",
+      "destination_path": "backend/internal/repo/pgrepo/alert_config_repo_test.go",
+      "sha": "b7777beb63a81256c9f622eb29721c0861ba8b26"
+    },
+    {
+      "source_path": "backend/internal/repo/pgrepo/event.go",
+      "destination_path": "backend/internal/repo/pgrepo/event.go",
+      "sha": "7b242eebd662e9fe3fcb836fbb6060ad02480f5c"
+    },
+    {
+      "source_path": "backend/internal/repo/pgrepo/dashboard.go",
+      "destination_path": "backend/internal/repo/pgrepo/dashboard.go",
+      "sha": "cf35cbb20504f7d4c0dd41358d71bc8864e7e28f"
+    },
+    {
+      "source_path": "backend/internal/repo/pgrepo/event_repo_test.go",
+      "destination_path": "backend/internal/repo/pgrepo/event_repo_test.go",
+      "sha": "0b086dbda11d4c496e20f5bca34d8cef421f73f7"
+    },
+    {
+      "source_path": "backend/internal/repo/pgrepo/mention_test.go",
+      "destination_path": "backend/internal/repo/pgrepo/mention_test.go",
+      "sha": "31c41bf91ec873057ba19e422bfc6e1c792a50ed"
+    },
+    {
+      "source_path": "backend/internal/middleware/recovery.go",
+      "destination_path": "backend/internal/middleware/recovery.go",
+      "sha": "8143a03996623d9c6a6a3f876659c75a706d497e"
+    },
+    {
+      "source_path": "backend/internal/repo/pgrepo/mention_repo_test.go",
+      "destination_path": "backend/internal/repo/pgrepo/mention_repo_test.go",
+      "sha": "4981baae14eeed37f7367a38f73d77a8350be3a2"
+    },
+    {
+      "source_path": "backend/internal/repo/pgrepo/source.go",
+      "destination_path": "backend/internal/repo/pgrepo/source.go",
+      "sha": "f8a7edfc1d107fd44b2f1bbd87a60733263777be"
+    },
+    {
+      "source_path": "backend/internal/repo/pgrepo/repo_test.go",
+      "destination_path": "backend/internal/repo/pgrepo/repo_test.go",
+      "sha": "218a7266967ce3e4cee10826d2e8d49824502e30"
+    },
+    {
+      "source_path": "backend/internal/repo/pgrepo/mention.go",
+      "destination_path": "backend/internal/repo/pgrepo/mention.go",
+      "sha": "36ed6ae9e1da10860707079cb3d1c5604b8fc63d"
+    },
+    {
+      "source_path": "backend/internal/repo/pgrepo/db.go",
+      "destination_path": "backend/internal/repo/pgrepo/db.go",
+      "sha": "bd354e4a6ab45707ee413968226a0bdabf7e3e23"
+    },
+    {
+      "source_path": "backend/internal/repo/pgrepo/source_test.go",
+      "destination_path": "backend/internal/repo/pgrepo/source_test.go",
+      "sha": "424a34b8640ef8ce3fef731f751ba3968b54a8dd"
+    },
+    {
+      "source_path": "backend/internal/repo/redisrepo/cooldown.go",
+      "destination_path": "backend/internal/repo/redisrepo/cooldown.go",
+      "sha": "228d50fbf95a8897151f5475ab363b4fbaa7bc5a"
+    },
+    {
+      "source_path": "backend/internal/repo/pgrepo/source_repo_test.go",
+      "destination_path": "backend/internal/repo/pgrepo/source_repo_test.go",
+      "sha": "3e93ad27939cecf436236023081865fa72d1cefb"
+    },
+    {
+      "source_path": "backend/internal/repo/redisrepo/deduplicate.go",
+      "destination_path": "backend/internal/repo/redisrepo/deduplicate.go",
+      "sha": "9995d843331d6f2b33c87fb7e9601c210bebba0b"
+    },
+    {
+      "source_path": "backend/internal/repo/redisrepo/deduplicate_test.go",
+      "destination_path": "backend/internal/repo/redisrepo/deduplicate_test.go",
+      "sha": "c81929fb2832cc2fb33646a9c1636b5a0a51de3d"
+    },
+    {
+      "source_path": "backend/internal/repo/redisrepo/cooldown_test.go",
+      "destination_path": "backend/internal/repo/redisrepo/cooldown_test.go",
+      "sha": "2bfa8569cdcb18b6ca75b004e4bdf0f417d38611"
+    },
+    {
+      "source_path": "backend/internal/repo/redisrepo/mention_cache_test.go",
+      "destination_path": "backend/internal/repo/redisrepo/mention_cache_test.go",
+      "sha": "e7a1b3b50f4e910bf2754119d3f73491f33d253b"
+    },
+    {
+      "source_path": "backend/internal/usecase/alert.go",
+      "destination_path": "backend/internal/usecase/alert.go",
+      "sha": "e52a1a7a43f1d45e2da418be393c0ac13fe0062c"
+    },
+    {
+      "source_path": "backend/internal/usecase/alert_test.go",
+      "destination_path": "backend/internal/usecase/alert_test.go",
+      "sha": "484bfab4ec52f535ac4402c67a1b444789e92077"
+    },
+    {
+      "source_path": "backend/internal/usecase/dashboard.go",
+      "destination_path": "backend/internal/usecase/dashboard.go",
+      "sha": "d4282d28fd9e7179bb880f9c76013f7217ddba09"
+    },
+    {
+      "source_path": "backend/internal/usecase/dashboard_test.go",
+      "destination_path": "backend/internal/usecase/dashboard_test.go",
+      "sha": "40c711ac80da06fdaaf06f7be11384e0748aa53f"
+    },
+    {
+      "source_path": "backend/internal/usecase/brand_test.go",
+      "destination_path": "backend/internal/usecase/brand_test.go",
+      "sha": "3b0ec42b7e6c27a276ebe1600d503354b4b23c00"
+    },
+    {
+      "source_path": "backend/internal/usecase/event.go",
+      "destination_path": "backend/internal/usecase/event.go",
+      "sha": "4baa218c8fa6fb3d70d3c86e6d33df31137a060f"
+    },
+    {
+      "source_path": "backend/internal/repo/redisrepo/mention_cache.go",
+      "destination_path": "backend/internal/repo/redisrepo/mention_cache.go",
+      "sha": "0ee811232e3667e63c9b81cb94ac0c017f600bdb"
+    },
+    {
+      "source_path": "backend/internal/usecase/health.go",
+      "destination_path": "backend/internal/usecase/health.go",
+      "sha": "1feb2e4549cd415ffa3f6edd2903b7a84e5283fb"
+    },
+    {
+      "source_path": "backend/internal/usecase/health_test.go",
+      "destination_path": "backend/internal/usecase/health_test.go",
+      "sha": "1bb72d79ec09dd9981c45afa40b4abc46440111c"
+    },
+    {
+      "source_path": "backend/internal/usecase/event_test.go",
+      "destination_path": "backend/internal/usecase/event_test.go",
+      "sha": "ca2d2a9d44752e0a4d804e56098f26875ad7de04"
+    },
+    {
+      "source_path": "backend/internal/usecase/mention_cache_test.go",
+      "destination_path": "backend/internal/usecase/mention_cache_test.go",
+      "sha": "ce294ffedbdd61736f6c1c84a0dfcfc3e3f93756"
+    },
+    {
+      "source_path": "backend/internal/usecase/mocks/repositories.go",
+      "destination_path": "backend/internal/usecase/mocks/repositories.go",
+      "sha": "0c934c1fc0569dfd4c44c1acb84e72452e07b428"
+    },
+    {
+      "source_path": "backend/internal/usecase/mention.go",
+      "destination_path": "backend/internal/usecase/mention.go",
+      "sha": "e61bffa912809030d26c4cc02da98d34cdce1d72"
+    },
+    {
+      "source_path": "backend/internal/usecase/mention_test.go",
+      "destination_path": "backend/internal/usecase/mention_test.go",
+      "sha": "a7c400c1e997b227503002c8251227a5907e29b6"
+    },
+    {
+      "source_path": "backend/internal/usecase/source_test.go",
+      "destination_path": "backend/internal/usecase/source_test.go",
+      "sha": "a13c534acba128001a0eb4d64136de5ac6a2fed6"
+    },
+    {
+      "source_path": "backend/internal/usecase/mock.go",
+      "destination_path": "backend/internal/usecase/mock.go",
+      "sha": "9c28baaa67965de64aec4faeeba913e83a864e5b"
+    },
+    {
+      "source_path": "backend/internal/usecase/repo.go",
+      "destination_path": "backend/internal/usecase/repo.go",
+      "sha": "68a47784dc3636eef350c9d2433be54d2f8837d7"
+    },
+    {
+      "source_path": "backend/internal/usecase/brand.go",
+      "destination_path": "backend/internal/usecase/brand.go",
+      "sha": "e65dd40b7e0af10485db60be9981a88b65ff01de"
+    },
+    {
+      "source_path": "backend/internal/usecase/test_helpers_test.go",
+      "destination_path": "backend/internal/usecase/test_helpers_test.go",
+      "sha": "eb9b6a3884e494b3b7473820027f6887ac6b985d"
+    },
+    {
+      "source_path": "backend/migrations/000001_projects_brands_sources.down.sql",
+      "destination_path": "backend/migrations/000001_projects_brands_sources.down.sql",
+      "sha": "99adb2d1646d058842ab6012280a42cd2f3654fa"
+    },
+    {
+      "source_path": "backend/internal/usecase/source.go",
+      "destination_path": "backend/internal/usecase/source.go",
+      "sha": "c495d11808c7cd2761be6a92dab9824aaa4345a8"
+    },
+    {
+      "source_path": "backend/migrations/000002_mentions.down.sql",
+      "destination_path": "backend/migrations/000002_mentions.down.sql",
+      "sha": "6540bbb207ece9eb42adcaacb89022073d584211"
+    },
+    {
+      "source_path": "backend/migrations/000002_mentions.up.sql",
+      "destination_path": "backend/migrations/000002_mentions.up.sql",
+      "sha": "5c8a40a7a14b3593c5d3c4791c4ae89491ae0baa"
+    },
+    {
+      "source_path": "backend/migrations/000001_projects_brands_sources.up.sql",
+      "destination_path": "backend/migrations/000001_projects_brands_sources.up.sql",
+      "sha": "913b326f59fd9cc967d19a02b0ddf635ecff9f69"
+    },
+    {
+      "source_path": "backend/migrations/000003_alerts.down.sql",
+      "destination_path": "backend/migrations/000003_alerts.down.sql",
+      "sha": "5e8500fc14063fc8a5eac98de64dfe08bd554151"
+    },
+    {
+      "source_path": "backend/migrations/000003_alerts.up.sql",
+      "destination_path": "backend/migrations/000003_alerts.up.sql",
+      "sha": "19ef762bbab986cccc306e1675888566be2f1e35"
+    },
+    {
+      "source_path": "backend/migrations/000004_events.up.sql",
+      "destination_path": "backend/migrations/000004_events.up.sql",
+      "sha": "88b2701cdcdf0fd5ab66ab53036790039c2bab38"
+    },
+    {
+      "source_path": "backend/migrations/000006_alert_aggression.down.sql",
+      "destination_path": "backend/migrations/000006_alert_aggression.down.sql",
+      "sha": "b5d4d44494fe2a90cc5fd608088c6f274e7f82ac"
+    },
+    {
+      "source_path": "backend/migrations/000006_alert_aggression.up.sql",
+      "destination_path": "backend/migrations/000006_alert_aggression.up.sql",
+      "sha": "cf98ade3746630a44d5cac0b246c5aa0a27e0c1c"
+    },
+    {
+      "source_path": "backend/migrations/000007_sentiment_results.down.sql",
+      "destination_path": "backend/migrations/000007_sentiment_results.down.sql",
+      "sha": "a92cdca52071f83ff048f07699f1c2c66b7ac3a2"
+    },
+    {
+      "source_path": "backend/migrations/000004_events.down.sql",
+      "destination_path": "backend/migrations/000004_events.down.sql",
+      "sha": "653c74003704c4646e66fd3b5392f42d661d18ab"
+    },
+    {
+      "source_path": "backend/migrations/000008_source_url.up.sql",
+      "destination_path": "backend/migrations/000008_source_url.up.sql",
+      "sha": "552e0b9913cf224cbd62979c9ff9022bb0e776e3"
+    },
+    {
+      "source_path": "backend/migrations/000008_source_url.down.sql",
+      "destination_path": "backend/migrations/000008_source_url.down.sql",
+      "sha": "30aa48f727bb2dce73ce7f4fe96970931f0661dc"
+    },
+    {
+      "source_path": "backend/migrations/000007_sentiment_results.up.sql",
+      "destination_path": "backend/migrations/000007_sentiment_results.up.sql",
+      "sha": "a92cdca52071f83ff048f07699f1c2c66b7ac3a2"
+    },
+    {
+      "source_path": "backend/migrations/000009_refactor_mentions.up.sql",
+      "destination_path": "backend/migrations/000009_refactor_mentions.up.sql",
+      "sha": "58eafd0d0a0a12179606b018bcd4c9482a0dd158"
+    },
+    {
+      "source_path": "backend/migrations/000010_remove_alert_threshold_aggression.down.sql",
+      "destination_path": "backend/migrations/000010_remove_alert_threshold_aggression.down.sql",
+      "sha": "2d2d18e4f6d7c1af6910594407b21daf786795f1"
+    },
+    {
+      "source_path": "backend/migrations/000009_refactor_mentions.down.sql",
+      "destination_path": "backend/migrations/000009_refactor_mentions.down.sql",
+      "sha": "da00350fb9763a8f401b51cf7009d6c3a20885e1"
+    },
+    {
+      "source_path": "backend/migrations/000010_remove_alert_threshold_aggression.up.sql",
+      "destination_path": "backend/migrations/000010_remove_alert_threshold_aggression.up.sql",
+      "sha": "e3f2084a8d444623905656d1b410df81e14f0b57"
+    },
+    {
+      "source_path": "backend/migrations/000011_add_alert_anomaly_config.down.sql",
+      "destination_path": "backend/migrations/000011_add_alert_anomaly_config.down.sql",
+      "sha": "ae58d91719be7a11758ad818e0e37b17f439e237"
+    },
+    {
+      "source_path": "backend/migrations/000012_brand_unique_name.down.sql",
+      "destination_path": "backend/migrations/000012_brand_unique_name.down.sql",
+      "sha": "5da765793ed80b11863db585b52f1fefd14377d8"
+    },
+    {
+      "source_path": "backend/migrations/000011_add_alert_anomaly_config.up.sql",
+      "destination_path": "backend/migrations/000011_add_alert_anomaly_config.up.sql",
+      "sha": "cba56795041d3f68c607dedffbac4d9f37576db4"
+    },
+    {
+      "source_path": "backend/migrations/000012_brand_unique_name.up.sql",
+      "destination_path": "backend/migrations/000012_brand_unique_name.up.sql",
+      "sha": "60d099b44cb06353dcb8b1f8f42408d2f042640f"
+    },
+    {
+      "source_path": "backend/migrations/000013_add_cluster_label.down.sql",
+      "destination_path": "backend/migrations/000013_add_cluster_label.down.sql",
+      "sha": "884f1acd1f905896232d1297bf9272478cd37b01"
+    },
+    {
+      "source_path": "backend/migrations/000013_add_cluster_label.up.sql",
+      "destination_path": "backend/migrations/000013_add_cluster_label.up.sql",
+      "sha": "0c5d6d318d3beace988cd6ed0d484209b934f4d0"
+    },
+    {
+      "source_path": "backend/monitoring/grafana/dashboards/brandradar-overview.json",
+      "destination_path": "backend/monitoring/grafana/dashboards/brandradar-overview.json",
+      "sha": "d8dc734bb0f089361e34d24d139b180f49436834"
+    },
+    {
+      "source_path": "backend/monitoring/grafana/dashboards/brandradar-business.json",
+      "destination_path": "backend/monitoring/grafana/dashboards/brandradar-business.json",
+      "sha": "c9c42b97b9593e62a53ce7e8327dc8366ca48071"
+    },
+    {
+      "source_path": "backend/monitoring/grafana/provisioning/datasources/datasource.yml",
+      "destination_path": "backend/monitoring/grafana/provisioning/datasources/datasource.yml",
+      "sha": "7147d36b1a1577e37eb2facd5160bf535b03e99c"
+    },
+    {
+      "source_path": "backend/monitoring/grafana/dashboards/brandradar-runtime.json",
+      "destination_path": "backend/monitoring/grafana/dashboards/brandradar-runtime.json",
+      "sha": "c97aec9b9ee8ebd07118f1dd7fe904f7b000c523"
+    },
+    {
+      "source_path": "backend/monitoring/grafana/provisioning/dashboards/dashboard.yml",
+      "destination_path": "backend/monitoring/grafana/provisioning/dashboards/dashboard.yml",
+      "sha": "6791f631f0515bc925f778ebb23a1c057229c9ec"
+    },
+    {
+      "source_path": "backend/pkg/httpserver/server_test.go",
+      "destination_path": "backend/pkg/httpserver/server_test.go",
+      "sha": "c4bcb14e63801a47ec0a25596f0ef86d309d0b22"
+    },
+    {
+      "source_path": "backend/pkg/logger/logger.go",
+      "destination_path": "backend/pkg/logger/logger.go",
+      "sha": "894f9f6a565af1e000e1c3ec9339da70d8b2d4f3"
+    },
+    {
+      "source_path": "backend/pkg/httpserver/server.go",
+      "destination_path": "backend/pkg/httpserver/server.go",
+      "sha": "8ac6a9819088529645fcfd602227cfd484f20220"
+    },
+    {
+      "source_path": "backend/monitoring/prometheus/prometheus.yml",
+      "destination_path": "backend/monitoring/prometheus/prometheus.yml",
+      "sha": "c78fd9ec9e45df0dc4313e415090b9cd5e383b42"
+    },
+    {
+      "source_path": "backend/pkg/logger/logger_test.go",
+      "destination_path": "backend/pkg/logger/logger_test.go",
+      "sha": "4cc4f5a5c5465e630be9f68f10a6dad2484e266a"
+    },
+    {
+      "source_path": "backend/pkg/postgres/postgres.go",
+      "destination_path": "backend/pkg/postgres/postgres.go",
+      "sha": "f96c82847e55bc0e876198959b6f495af13ac884"
+    },
+    {
+      "source_path": "backend/pkg/redis/redis.go",
+      "destination_path": "backend/pkg/redis/redis.go",
+      "sha": "7204372ce05777ff8eece045eaaa6e06270f4dee"
+    },
+    {
+      "source_path": "backend/tests/e2e/brand_test.go",
+      "destination_path": "backend/tests/e2e/brand_test.go",
+      "sha": "9914f691cdb32855f9968005bbe20be2c5aae01a"
+    },
+    {
+      "source_path": "backend/tests/e2e/health_test.go",
+      "destination_path": "backend/tests/e2e/health_test.go",
+      "sha": "9546b2ed96e2899375c846a06a6f35e6cddcd1ee"
+    },
+    {
+      "source_path": "backend/tests/e2e/alert_test.go",
+      "destination_path": "backend/tests/e2e/alert_test.go",
+      "sha": "cdfc3855c2f5b454fce8fc0fe396c53abd94df14"
+    },
+    {
+      "source_path": "backend/tests/e2e/mention_test.go",
+      "destination_path": "backend/tests/e2e/mention_test.go",
+      "sha": "cc4c5b39318087ad4ee70fee4793cdbac7849cd4"
+    },
+    {
+      "source_path": "backend/scripts/requirements.txt",
+      "destination_path": "backend/scripts/requirements.txt",
+      "sha": "663bd1f6a2ae02f29df59fb4963c17934034f731"
+    },
+    {
+      "source_path": "backend/tests/e2e/helpers_test.go",
+      "destination_path": "backend/tests/e2e/helpers_test.go",
+      "sha": "08ac65d0dfcff60be2c71b599568710c945ffe69"
+    },
+    {
+      "source_path": "backend/tests/e2e/scenarios_test.go",
+      "destination_path": "backend/tests/e2e/scenarios_test.go",
+      "sha": "c6be842954dd92ffb65d6685fdb1eb96af0cdad1"
+    },
+    {
+      "source_path": "backend/tests/e2e/event_test.go",
+      "destination_path": "backend/tests/e2e/event_test.go",
+      "sha": "e1d10e962e369f230c952ce211c309c8ad6efc3a"
+    },
+    {
+      "source_path": "backend/scripts/create_mock_mentions.py",
+      "destination_path": "backend/scripts/create_mock_mentions.py",
+      "sha": "f6772550abc22496dadbb3d0e21fa4400941349e"
+    },
+    {
+      "source_path": "backend/tests/e2e/source_test.go",
+      "destination_path": "backend/tests/e2e/source_test.go",
+      "sha": "fdf12eab1efa8fec92af7f2634699746cf60d989"
+    },
+    {
+      "source_path": "backend/tests/e2e/testmain_test.go",
+      "destination_path": "backend/tests/e2e/testmain_test.go",
+      "sha": "b72a7257baf5c67d36e19a8e92ce5ebdbb37fcb2"
+    },
+    {
+      "source_path": "frontend/.prettierrc",
+      "destination_path": "frontend/.prettierrc",
+      "sha": "eb353a5c5d5b317a35e5a9994b8d96bcc5b7c154"
+    },
+    {
+      "source_path": "frontend/Dockerfile",
+      "destination_path": "frontend/Dockerfile",
+      "sha": "97e97fc446f8eb9578911be6a8d61cacb7adeed7"
+    },
+    {
+      "source_path": "frontend/components.json",
+      "destination_path": "frontend/components.json",
+      "sha": "62e101166a31ade477811bd31f6be1ae44d45423"
+    },
+    {
+      "source_path": "frontend/docker-compose.yml",
+      "destination_path": "frontend/docker-compose.yml",
+      "sha": "a432053631f54542611a540a80b9cfb9b7f11ca4"
+    },
+    {
+      "source_path": "frontend/README.md",
+      "destination_path": "frontend/README.md",
+      "sha": "2f11df7f888b5f8d55f6f8b8da7e0847867dbebe"
+    },
+    {
+      "source_path": "frontend/eslint.config.js",
+      "destination_path": "frontend/eslint.config.js",
+      "sha": "b235b2b4a1624cae06fbd1d2e733853b186449e0"
+    },
+    {
+      "source_path": "frontend/index.html",
+      "destination_path": "frontend/index.html",
+      "sha": "7836459443369d3d531c44e7487c4872f7cdf278"
+    },
+    {
+      "source_path": "frontend/bun.lock",
+      "destination_path": "frontend/bun.lock",
+      "sha": "fbffcc13929fea6908a61dd5af78a5f0afb9c354"
+    },
+    {
+      "source_path": "frontend/package-lock.json",
+      "destination_path": "frontend/package-lock.json",
+      "sha": "fd8c39a989273696efc85fabebf1cd4702718d60"
+    },
+    {
+      "source_path": "docker-compose.yml",
+      "destination_path": "docker-compose.yml",
+      "sha": "b5026fdcc382a38c620f89c01168604cbbe2e17f"
+    },
+    {
+      "source_path": "frontend/playwright-fixture.ts",
+      "destination_path": "frontend/playwright-fixture.ts",
+      "sha": "e7e0d07908d9a394581fb30ff678848b679dee1d"
+    },
+    {
+      "source_path": "frontend/package.json",
+      "destination_path": "frontend/package.json",
+      "sha": "a4310640085b7a763842edc0379aa8ab9c4e2a56"
+    },
+    {
+      "source_path": "frontend/playwright.config.ts",
+      "destination_path": "frontend/playwright.config.ts",
+      "sha": "d2d7ae27539d8ebb70baaa20ae94bc1e0dfa22f3"
+    },
+    {
+      "source_path": "frontend/postcss.config.js",
+      "destination_path": "frontend/postcss.config.js",
+      "sha": "2aa7205d4b402a1bdfbe07110c61df920b370066"
+    },
+    {
+      "source_path": "frontend/public/robots.txt",
+      "destination_path": "frontend/public/robots.txt",
+      "sha": "6018e701fc7dd0317cda9eceea390524322e8a05"
+    },
+    {
+      "source_path": "frontend/server.js",
+      "destination_path": "frontend/server.js",
+      "sha": "8e41c27665b3a39f09237c1c03c65ebaa2bdda94"
+    },
+    {
+      "source_path": "frontend/public/placeholder.svg",
+      "destination_path": "frontend/public/placeholder.svg",
+      "sha": "e763910b27fdd9ac872f56baede51bc839402347"
+    },
+    {
+      "source_path": "frontend/src/App.tsx",
+      "destination_path": "frontend/src/App.tsx",
+      "sha": "a3024e127e9f11eb0db0a7567ddf2a6e63fef772"
+    },
+    {
+      "source_path": "frontend/src/components/AppSidebar.tsx",
+      "destination_path": "frontend/src/components/AppSidebar.tsx",
+      "sha": "ccfde48b04af01abc05d383c185c6d834544f6f0"
+    },
+    {
+      "source_path": "frontend/src/components/NavLink.tsx",
+      "destination_path": "frontend/src/components/NavLink.tsx",
+      "sha": "a561a95f420d2ee6ffb98e12b690f354a7c9c50d"
+    },
+    {
+      "source_path": "frontend/src/components/CommandPalette.tsx",
+      "destination_path": "frontend/src/components/CommandPalette.tsx",
+      "sha": "9db652c3359cdce35493c6e14b9a110029e05e21"
+    },
+    {
+      "source_path": "frontend/src/components/HealthIndicator.tsx",
+      "destination_path": "frontend/src/components/HealthIndicator.tsx",
+      "sha": "511866f898290112a4153e730973f9f2e8ace436"
+    },
+    {
+      "source_path": "frontend/src/components/dashboard/LiveMentionsChart.tsx",
+      "destination_path": "frontend/src/components/dashboard/LiveMentionsChart.tsx",
+      "sha": "2d5253bac33ece509b4f185378bfea272a4db314"
+    },
+    {
+      "source_path": "frontend/src/components/dashboard/MentionsChart.tsx",
+      "destination_path": "frontend/src/components/dashboard/MentionsChart.tsx",
+      "sha": "91fe6c69b1ccc9cf89abe36efdc3f1f6d85290fe"
+    },
+    {
+      "source_path": "frontend/src/components/dashboard/SentimentDonut.tsx",
+      "destination_path": "frontend/src/components/dashboard/SentimentDonut.tsx",
+      "sha": "f05765ec470f4dbe76406f6dddc2a2afb2992073"
+    },
+    {
+      "source_path": "frontend/src/components/mentions/MentionCard.tsx",
+      "destination_path": "frontend/src/components/mentions/MentionCard.tsx",
+      "sha": "98cff73786aa1b37547766565a40b3e14a8368a3"
+    },
+    {
+      "source_path": "frontend/src/components/mentions/MentionCard.test.tsx",
+      "destination_path": "frontend/src/components/mentions/MentionCard.test.tsx",
+      "sha": "14568752954013ab999f8ed47c1ed23203012d6e"
+    },
+    {
+      "source_path": "frontend/src/components/mentions/MentionFilters.tsx",
+      "destination_path": "frontend/src/components/mentions/MentionFilters.tsx",
+      "sha": "5c1ead25880dd89f5b252f09c5ecf2a578f29203"
+    },
+    {
+      "source_path": "frontend/src/components/settings/BrandCard.tsx",
+      "destination_path": "frontend/src/components/settings/BrandCard.tsx",
+      "sha": "077f9bb3740f3714bc2f253ba0f0280f2fe22c1b"
+    },
+    {
+      "source_path": "frontend/src/components/mentions/MentionDetailPanel.tsx",
+      "destination_path": "frontend/src/components/mentions/MentionDetailPanel.tsx",
+      "sha": "74f526c95d646d0dd45991221b9085e6d1bd419a"
+    },
+    {
+      "source_path": "frontend/src/components/settings/BrandDialog.tsx",
+      "destination_path": "frontend/src/components/settings/BrandDialog.tsx",
+      "sha": "f6c1b6f0ca260e9c759bde291b8d11841a5846f3"
+    },
+    {
+      "source_path": "frontend/src/components/settings/SystemSettings.tsx",
+      "destination_path": "frontend/src/components/settings/SystemSettings.tsx",
+      "sha": "c373a94caf5665d6bd7eca74519b1ea37d32be09"
+    },
+    {
+      "source_path": "frontend/src/components/mentions/MentionFilters.test.tsx",
+      "destination_path": "frontend/src/components/mentions/MentionFilters.test.tsx",
+      "sha": "84ee20d1b67a8dd3095dc622ee9179528c592032"
+    },
+    {
+      "source_path": "frontend/src/components/shared/ConfirmDialog.tsx",
+      "destination_path": "frontend/src/components/shared/ConfirmDialog.tsx",
+      "sha": "464ad8eb1a1649386a4db67ae1d2cbd5b48f0b86"
+    },
+    {
+      "source_path": "frontend/src/components/shared/ConfirmDialog.test.tsx",
+      "destination_path": "frontend/src/components/shared/ConfirmDialog.test.tsx",
+      "sha": "86a87757fccf02a56b9c23b7603827935d60daf7"
+    },
+    {
+      "source_path": "frontend/src/components/onboarding/OnboardingFlow.tsx",
+      "destination_path": "frontend/src/components/onboarding/OnboardingFlow.tsx",
+      "sha": "e7980e1b2c1584c7b9aac2154a22f6f7fd4c84fe"
+    },
+    {
+      "source_path": "frontend/src/components/AppHeader.tsx",
+      "destination_path": "frontend/src/components/AppHeader.tsx",
+      "sha": "75f503f94d653e8e97ff204b664d6655549a2c79"
+    },
+    {
+      "source_path": "frontend/src/components/shared/DegradationBanner.tsx",
+      "destination_path": "frontend/src/components/shared/DegradationBanner.tsx",
+      "sha": "06b2be3049385d3bd1193e07700e366efa1e0bcf"
+    },
+    {
+      "source_path": "frontend/src/components/shared/ConnectionStatus.tsx",
+      "destination_path": "frontend/src/components/shared/ConnectionStatus.tsx",
+      "sha": "ffbd169ba34391ba9aad5569bb6db318b27b6edc"
+    },
+    {
+      "source_path": "frontend/src/components/shared/DemoBanner.tsx",
+      "destination_path": "frontend/src/components/shared/DemoBanner.tsx",
+      "sha": "ab78b3d3d0892610d46a3c94352133c8a5bdceab"
+    },
+    {
+      "source_path": "frontend/src/components/shared/ErrorBanner.tsx",
+      "destination_path": "frontend/src/components/shared/ErrorBanner.tsx",
+      "sha": "f26feddb39319dcf42bd74836e58b6843ddf053f"
+    },
+    {
+      "source_path": "frontend/src/components/shared/EmptyState.tsx",
+      "destination_path": "frontend/src/components/shared/EmptyState.tsx",
+      "sha": "d8242a4c67062e8991b67c2e1daaa273aac866bb"
+    },
+    {
+      "source_path": "frontend/src/components/shared/OfflineGuard.tsx",
+      "destination_path": "frontend/src/components/shared/OfflineGuard.tsx",
+      "sha": "ac427d151a4f5d8c84bbb68e6b808317f75fa9c7"
+    },
+    {
+      "source_path": "frontend/src/components/ui/accordion.tsx",
+      "destination_path": "frontend/src/components/ui/accordion.tsx",
+      "sha": "1e7878cede299282b94353d31e073bca26f85811"
+    },
+    {
+      "source_path": "frontend/src/components/shared/Skeleton.tsx",
+      "destination_path": "frontend/src/components/shared/Skeleton.tsx",
+      "sha": "e33256f7d5376c46d24b64f6d9eb14d95d6e777b"
+    },
+    {
+      "source_path": "frontend/src/components/shared/OfflineGuard.test.tsx",
+      "destination_path": "frontend/src/components/shared/OfflineGuard.test.tsx",
+      "sha": "34750e823f3b3617e14d384991f3d6a5791e3497"
+    },
+    {
+      "source_path": "frontend/src/components/ui/alert-dialog.tsx",
+      "destination_path": "frontend/src/components/ui/alert-dialog.tsx",
+      "sha": "6dfbfb49fedb30753b1b2c08402953d40cc3389c"
+    },
+    {
+      "source_path": "frontend/src/components/ui/alert.tsx",
+      "destination_path": "frontend/src/components/ui/alert.tsx",
+      "sha": "2efc3c8ba4b70709df7a82ab6f3e5d07a25c2f62"
+    },
+    {
+      "source_path": "frontend/src/components/ui/badge.tsx",
+      "destination_path": "frontend/src/components/ui/badge.tsx",
+      "sha": "3bdf87111d6728c8c03e303a2b40b7a4897f4d5d"
+    },
+    {
+      "source_path": "frontend/src/components/ui/avatar.tsx",
+      "destination_path": "frontend/src/components/ui/avatar.tsx",
+      "sha": "68d21bbf6d29fc68b1a19d10e4eaf1e72fa2d68c"
+    },
+    {
+      "source_path": "frontend/src/components/ui/aspect-ratio.tsx",
+      "destination_path": "frontend/src/components/ui/aspect-ratio.tsx",
+      "sha": "c9e6f4bf9e1c01d6d7022b53e68438e61746c86c"
+    },
+    {
+      "source_path": "frontend/src/components/ui/breadcrumb.tsx",
+      "destination_path": "frontend/src/components/ui/breadcrumb.tsx",
+      "sha": "ca91ff53267af649575ad2f5daaec2104395aea5"
+    },
+    {
+      "source_path": "frontend/src/components/ui/button.tsx",
+      "destination_path": "frontend/src/components/ui/button.tsx",
+      "sha": "2bc2fc9425a4b62478e5c2e9eab55797ead8eb68"
+    },
+    {
+      "source_path": "frontend/src/components/ui/calendar.tsx",
+      "destination_path": "frontend/src/components/ui/calendar.tsx",
+      "sha": "900a69e45bafe9f68c2bf073b7441b9a943555fd"
+    },
+    {
+      "source_path": "frontend/src/components/ui/card.tsx",
+      "destination_path": "frontend/src/components/ui/card.tsx",
+      "sha": "e28274800fdd298091b911ecadafcf544284df9d"
+    },
+    {
+      "source_path": "frontend/src/components/ui/carousel.tsx",
+      "destination_path": "frontend/src/components/ui/carousel.tsx",
+      "sha": "3aa0f31fbe1f99ce6bdb1c3dd94e9f74f1d17bb8"
+    },
+    {
+      "source_path": "frontend/src/components/ui/checkbox.tsx",
+      "destination_path": "frontend/src/components/ui/checkbox.tsx",
+      "sha": "759a41ce202eb6da0310bcb05bb697bc9fe611dd"
+    },
+    {
+      "source_path": "frontend/src/components/ui/command.tsx",
+      "destination_path": "frontend/src/components/ui/command.tsx",
+      "sha": "ad32c1546f9b90776830f852e15655c0750b8beb"
+    },
+    {
+      "source_path": "frontend/src/components/ui/collapsible.tsx",
+      "destination_path": "frontend/src/components/ui/collapsible.tsx",
+      "sha": "5c28cbcc3bce7cbda84857bd218da20dd7d3770f"
+    },
+    {
+      "source_path": "frontend/src/components/ui/dialog.tsx",
+      "destination_path": "frontend/src/components/ui/dialog.tsx",
+      "sha": "8249e2f0a047f20a712e369ce56b8bc0c3ecdec2"
+    },
+    {
+      "source_path": "frontend/src/components/ui/drawer.tsx",
+      "destination_path": "frontend/src/components/ui/drawer.tsx",
+      "sha": "a2a435de93737ebbc73cd62de4e6a3d4617ca444"
+    },
+    {
+      "source_path": "frontend/src/components/ui/dropdown-menu.tsx",
+      "destination_path": "frontend/src/components/ui/dropdown-menu.tsx",
+      "sha": "ddabcfdd60883e3b869a1b047577219e210a9810"
+    },
+    {
+      "source_path": "frontend/src/components/ui/hover-card.tsx",
+      "destination_path": "frontend/src/components/ui/hover-card.tsx",
+      "sha": "6ee6892d3627aeef35bd49332094312162d1edcf"
+    },
+    {
+      "source_path": "frontend/src/components/ui/chart.tsx",
+      "destination_path": "frontend/src/components/ui/chart.tsx",
+      "sha": "08d40d90d48fe18e27b17ea9bd37d6122e36f3ea"
+    },
+    {
+      "source_path": "frontend/src/components/ui/form.tsx",
+      "destination_path": "frontend/src/components/ui/form.tsx",
+      "sha": "f947de427cd9fa49abef756295e8f8cb603acb01"
+    },
+    {
+      "source_path": "frontend/src/components/ui/input.tsx",
+      "destination_path": "frontend/src/components/ui/input.tsx",
+      "sha": "09700f605e069e1856565869ac994f978d1be0b3"
+    },
+    {
+      "source_path": "frontend/src/components/ui/label.tsx",
+      "destination_path": "frontend/src/components/ui/label.tsx",
+      "sha": "80e30eec8d12ded7da1f57c8bb83f461bc1a5d25"
+    },
+    {
+      "source_path": "frontend/src/components/ui/menubar.tsx",
+      "destination_path": "frontend/src/components/ui/menubar.tsx",
+      "sha": "15687e4c9263aff8bbee9d6c90b4889be1f5ff0c"
+    },
+    {
+      "source_path": "frontend/src/components/ui/input-otp.tsx",
+      "destination_path": "frontend/src/components/ui/input-otp.tsx",
+      "sha": "0e3fa02c744b6243154aff5089e5087114756b85"
+    },
+    {
+      "source_path": "frontend/src/components/ui/navigation-menu.tsx",
+      "destination_path": "frontend/src/components/ui/navigation-menu.tsx",
+      "sha": "5e25bab8a437b31fb0cee3446896a271509eac8f"
+    },
+    {
+      "source_path": "frontend/src/components/ui/context-menu.tsx",
+      "destination_path": "frontend/src/components/ui/context-menu.tsx",
+      "sha": "b5d9db065a5a149e0f269e1ce89d152d546c74cf"
+    },
+    {
+      "source_path": "frontend/src/components/ui/popover.tsx",
+      "destination_path": "frontend/src/components/ui/popover.tsx",
+      "sha": "59dd5252e9f4fe4c1a2da378af41ca4b0eea072b"
+    },
+    {
+      "source_path": "frontend/src/components/ui/pagination.tsx",
+      "destination_path": "frontend/src/components/ui/pagination.tsx",
+      "sha": "31ae1be10ef2eaf17c2e3682ee61f1d7a176be5c"
+    },
+    {
+      "source_path": "frontend/src/components/ui/progress.tsx",
+      "destination_path": "frontend/src/components/ui/progress.tsx",
+      "sha": "f9f131e9b5b88cb76a1dcda6cb971bf2dbafe223"
+    },
+    {
+      "source_path": "frontend/src/components/ui/radio-group.tsx",
+      "destination_path": "frontend/src/components/ui/radio-group.tsx",
+      "sha": "5d32e58a4efc47c81ec86c0d31831dfab9c87c2e"
+    },
+    {
+      "source_path": "frontend/src/components/ui/resizable.tsx",
+      "destination_path": "frontend/src/components/ui/resizable.tsx",
+      "sha": "4a1bd8c87ed744ff8659660306763a4f6026c7a2"
+    },
+    {
+      "source_path": "frontend/src/components/ui/select.tsx",
+      "destination_path": "frontend/src/components/ui/select.tsx",
+      "sha": "6f2525465bc450154ac8083461d0f84b2c1360f2"
+    },
+    {
+      "source_path": "frontend/src/components/ui/separator.tsx",
+      "destination_path": "frontend/src/components/ui/separator.tsx",
+      "sha": "e20c3f4c40ca530616e3e6a5ad6a868c89c53cc6"
+    },
+    {
+      "source_path": "frontend/src/components/ui/sheet.tsx",
+      "destination_path": "frontend/src/components/ui/sheet.tsx",
+      "sha": "c414714b3eca22b7ccfca8238c0407a7a8c6a38b"
+    },
+    {
+      "source_path": "frontend/src/components/ui/scroll-area.tsx",
+      "destination_path": "frontend/src/components/ui/scroll-area.tsx",
+      "sha": "8d29b27e58e20cad63e349991dfe1d61c2c146a9"
+    },
+    {
+      "source_path": "frontend/src/components/ui/skeleton.tsx",
+      "destination_path": "frontend/src/components/ui/skeleton.tsx",
+      "sha": "6690a131f28488723d7b4bb7d952e12ea3d03ee7"
+    },
+    {
+      "source_path": "frontend/src/components/ui/sonner.tsx",
+      "destination_path": "frontend/src/components/ui/sonner.tsx",
+      "sha": "0f0ce4eb0b6594fa00e396f0eaac31fc4bf951cd"
+    },
+    {
+      "source_path": "frontend/src/components/ui/sidebar.tsx",
+      "destination_path": "frontend/src/components/ui/sidebar.tsx",
+      "sha": "56bc0c74ea14664537452384ad667d458b6bbb20"
+    },
+    {
+      "source_path": "frontend/src/components/ui/slider.tsx",
+      "destination_path": "frontend/src/components/ui/slider.tsx",
+      "sha": "360d681b378defb20aa42e876cdb4e118c0b6316"
+    },
+    {
+      "source_path": "frontend/src/components/ui/switch.tsx",
+      "destination_path": "frontend/src/components/ui/switch.tsx",
+      "sha": "a76b76120b8d862d349a0ee226ff2188cd8afec7"
+    },
+    {
+      "source_path": "frontend/src/components/ui/tabs.tsx",
+      "destination_path": "frontend/src/components/ui/tabs.tsx",
+      "sha": "ba20fbb1b869b15d60f3e79507b68ebd2ee577ce"
+    },
+    {
+      "source_path": "frontend/src/components/ui/table.tsx",
+      "destination_path": "frontend/src/components/ui/table.tsx",
+      "sha": "991cdbf3ba12cf4d8e768a7b161471077568d4a6"
+    },
+    {
+      "source_path": "frontend/src/components/ui/textarea.tsx",
+      "destination_path": "frontend/src/components/ui/textarea.tsx",
+      "sha": "18eba7f8e785014e9b65d69afb4a423d63bb943e"
+    },
+    {
+      "source_path": "frontend/src/components/ui/toggle.tsx",
+      "destination_path": "frontend/src/components/ui/toggle.tsx",
+      "sha": "255d305bdf46403f47c0547ceb033b37b0a7e6d9"
+    },
+    {
+      "source_path": "frontend/src/components/ui/toast.tsx",
+      "destination_path": "frontend/src/components/ui/toast.tsx",
+      "sha": "0699548f55d2b920820a3e19d8b6b4807df8b599"
+    },
+    {
+      "source_path": "frontend/src/components/ui/toaster.tsx",
+      "destination_path": "frontend/src/components/ui/toaster.tsx",
+      "sha": "2cba1c825a884050a4917d1a198726fbd7d888ee"
+    },
+    {
+      "source_path": "frontend/src/components/ui/toggle-group.tsx",
+      "destination_path": "frontend/src/components/ui/toggle-group.tsx",
+      "sha": "8deae16fe1b4aa1992efccd8c93feae791e230d0"
+    },
+    {
+      "source_path": "frontend/src/components/ui/use-toast.ts",
+      "destination_path": "frontend/src/components/ui/use-toast.ts",
+      "sha": "b0aef21be259883fe159d3176ab46c6841c28a07"
+    },
+    {
+      "source_path": "frontend/src/components/ui/tooltip.tsx",
+      "destination_path": "frontend/src/components/ui/tooltip.tsx",
+      "sha": "2dece61d05221533410c21ed07bd1fae8e91dbb5"
+    },
+    {
+      "source_path": "frontend/src/contexts/ConnectionContext.tsx",
+      "destination_path": "frontend/src/contexts/ConnectionContext.tsx",
+      "sha": "eeadf3fb85e5b8cc56763e6eef41b6dcee4f4356"
+    },
+    {
+      "source_path": "frontend/src/data/mockEvents.ts",
+      "destination_path": "frontend/src/data/mockEvents.ts",
+      "sha": "163decc9abff5fd79d74d9621be0cdaa39ddbf25"
+    },
+    {
+      "source_path": "frontend/src/data/mockMentions.ts",
+      "destination_path": "frontend/src/data/mockMentions.ts",
+      "sha": "11d0c521fae25350b46b03d863fc36de62321898"
+    },
+    {
+      "source_path": "frontend/src/hooks/use-alerts.test.tsx",
+      "destination_path": "frontend/src/hooks/use-alerts.test.tsx",
+      "sha": "e5386ce8e321651959a043dd7e6526326dc70ebd"
+    },
+    {
+      "source_path": "frontend/src/hooks/use-alerts.ts",
+      "destination_path": "frontend/src/hooks/use-alerts.ts",
+      "sha": "8140fe49b25885c1c6297035184d8057d778554e"
+    },
+    {
+      "source_path": "frontend/src/hooks/use-brands.test.tsx",
+      "destination_path": "frontend/src/hooks/use-brands.test.tsx",
+      "sha": "f4c6d53bd4a4ee004a26f51a47c2f25010b7db8d"
+    },
+    {
+      "source_path": "frontend/src/hooks/use-events.ts",
+      "destination_path": "frontend/src/hooks/use-events.ts",
+      "sha": "b99ad2e2719b78142168fb9ab22f05de11fe2c63"
+    },
+    {
+      "source_path": "frontend/src/hooks/use-brands.ts",
+      "destination_path": "frontend/src/hooks/use-brands.ts",
+      "sha": "73dbcd1924da49da71d14663e42d0121d22c2846"
+    },
+    {
+      "source_path": "frontend/src/hooks/use-health.ts",
+      "destination_path": "frontend/src/hooks/use-health.ts",
+      "sha": "3a0b1da85bc3d9fde52f9bea2cbae9361ae822fe"
+    },
+    {
+      "source_path": "frontend/src/hooks/use-sources.ts",
+      "destination_path": "frontend/src/hooks/use-sources.ts",
+      "sha": "f69340c24ce8e148f18ff8f95757e989fad8198e"
+    },
+    {
+      "source_path": "frontend/src/hooks/use-mentions.ts",
+      "destination_path": "frontend/src/hooks/use-mentions.ts",
+      "sha": "0cc4479cc40761a709672b6ce0be977444bcdbd1"
+    },
+    {
+      "source_path": "frontend/src/hooks/use-mentions.test.tsx",
+      "destination_path": "frontend/src/hooks/use-mentions.test.tsx",
+      "sha": "16aa37d4f1590dfdaad37d86f070b6c98e59743b"
+    },
+    {
+      "source_path": "frontend/src/hooks/use-toast.ts",
+      "destination_path": "frontend/src/hooks/use-toast.ts",
+      "sha": "ca1316d678d31c11c213ce717c5e064a17e85ecd"
+    },
+    {
+      "source_path": "frontend/src/hooks/useLoadingState.ts",
+      "destination_path": "frontend/src/hooks/useLoadingState.ts",
+      "sha": "5fe59b20efa493c73d354b829b71314c281b32d5"
+    },
+    {
+      "source_path": "frontend/src/hooks/use-mobile.tsx",
+      "destination_path": "frontend/src/hooks/use-mobile.tsx",
+      "sha": "502fd323934501eab408a396a9ae4a07c0ae3560"
+    },
+    {
+      "source_path": "frontend/src/layouts/DashboardLayout.tsx",
+      "destination_path": "frontend/src/layouts/DashboardLayout.tsx",
+      "sha": "7f35cd978f8360560a4d1e68eac0f26bdf3a03c6"
+    },
+    {
+      "source_path": "frontend/src/lib/api-cache.ts",
+      "destination_path": "frontend/src/lib/api-cache.ts",
+      "sha": "15ae40959c09aabe21f337538d092a8b822c05d0"
+    },
+    {
+      "source_path": "frontend/src/index.css",
+      "destination_path": "frontend/src/index.css",
+      "sha": "8b987fff3edeab262e15dfb2046e2aebe8b7c397"
+    },
+    {
+      "source_path": "frontend/src/lib/api.ts",
+      "destination_path": "frontend/src/lib/api.ts",
+      "sha": "e6e5a48554bae96e25aca0b721dbf7b2ed3405ea"
+    },
+    {
+      "source_path": "frontend/src/hooks/usePageTitle.ts",
+      "destination_path": "frontend/src/hooks/usePageTitle.ts",
+      "sha": "bd8e3075738921e3a37755a7a3e82836bf0bb208"
+    },
+    {
+      "source_path": "frontend/src/lib/api/brands.ts",
+      "destination_path": "frontend/src/lib/api/brands.ts",
+      "sha": "888adfb58a7f1e2ef8658566ab125880e122c36d"
+    },
+    {
+      "source_path": "frontend/src/lib/api/alerts.ts",
+      "destination_path": "frontend/src/lib/api/alerts.ts",
+      "sha": "bfd7dda5a0e9e4cd3fe8fe18253ca406f42e53b0"
+    },
+    {
+      "source_path": "frontend/src/lib/api/mentions.ts",
+      "destination_path": "frontend/src/lib/api/mentions.ts",
+      "sha": "71bb04e1e3b292090d192bb780094f37cd0b76bc"
+    },
+    {
+      "source_path": "frontend/src/lib/api/health.ts",
+      "destination_path": "frontend/src/lib/api/health.ts",
+      "sha": "172f36217018cb488762dc09058014d4abc95d79"
+    },
+    {
+      "source_path": "frontend/src/lib/api/events.ts",
+      "destination_path": "frontend/src/lib/api/events.ts",
+      "sha": "82eb959b3d0540a7372aadf6b86ae1bef5be8c90"
+    },
+    {
+      "source_path": "frontend/src/lib/constants.ts",
+      "destination_path": "frontend/src/lib/constants.ts",
+      "sha": "6b02df0cfbd7ee2ae28d2b0010f8d9acb0d42a9f"
+    },
+    {
+      "source_path": "frontend/src/lib/api/types.ts",
+      "destination_path": "frontend/src/lib/api/types.ts",
+      "sha": "8e4b1316dfb23fd3a055d5566fc69b8a9c50c3a6"
+    },
+    {
+      "source_path": "frontend/src/lib/format.ts",
+      "destination_path": "frontend/src/lib/format.ts",
+      "sha": "52c7a37caaaffd9c18ec28ea3279ea3c57ca0010"
+    },
+    {
+      "source_path": "frontend/src/lib/format.test.ts",
+      "destination_path": "frontend/src/lib/format.test.ts",
+      "sha": "910d5b9449f4c9bde1459a093f9735f186a775ec"
+    },
+    {
+      "source_path": "frontend/src/lib/api/swagger3.json",
+      "destination_path": "frontend/src/lib/api/swagger3.json",
+      "sha": "7e0088156c8dd3b4a559e662589d3c3c07240ee5"
+    },
+    {
+      "source_path": "frontend/src/lib/api/sources.ts",
+      "destination_path": "frontend/src/lib/api/sources.ts",
+      "sha": "5fd3a4797ac85c509a45ddbe51690c3d4de2acc2"
+    },
+    {
+      "source_path": "frontend/src/lib/mock-analytics.ts",
+      "destination_path": "frontend/src/lib/mock-analytics.ts",
+      "sha": "5d3c9bab2df61875074b704273f2f933f3bd79d8"
+    },
+    {
+      "source_path": "frontend/src/lib/mock-data.ts",
+      "destination_path": "frontend/src/lib/mock-data.ts",
+      "sha": "df278a4995828aa08249958f513f6424628ee21f"
+    },
+    {
+      "source_path": "frontend/src/lib/mock-config.ts",
+      "destination_path": "frontend/src/lib/mock-config.ts",
+      "sha": "f26ed54171c9fddbe43feb6999ddb6817c547b6f"
+    },
+    {
+      "source_path": "frontend/src/lib/utils.ts",
+      "destination_path": "frontend/src/lib/utils.ts",
+      "sha": "a5ef193506d07d0459fec4f187af08283094d7c8"
+    },
+    {
+      "source_path": "frontend/src/pages/Alerts.tsx",
+      "destination_path": "frontend/src/pages/Alerts.tsx",
+      "sha": "97d8b2d11b66c98bc37e8a01092dae5586d3f8c4"
+    },
+    {
+      "source_path": "frontend/src/main.tsx",
+      "destination_path": "frontend/src/main.tsx",
+      "sha": "68176a72f30ae0650f5093c8b6a7b01016acf07a"
+    },
+    {
+      "source_path": "frontend/src/pages/BrandDetail.tsx",
+      "destination_path": "frontend/src/pages/BrandDetail.tsx",
+      "sha": "193dfeecedf5d7e56d714bc5cd6544a66a7d3b2b"
+    },
+    {
+      "source_path": "frontend/src/pages/Health.tsx",
+      "destination_path": "frontend/src/pages/Health.tsx",
+      "sha": "ac12b0dcb1705c397f56316d02cb657927236ef1"
+    },
+    {
+      "source_path": "frontend/src/pages/Events.tsx",
+      "destination_path": "frontend/src/pages/Events.tsx",
+      "sha": "dc40560bf7e07b3fc1b90d83353d183d14f90ad5"
+    },
+    {
+      "source_path": "frontend/src/pages/Dashboard.tsx",
+      "destination_path": "frontend/src/pages/Dashboard.tsx",
+      "sha": "94f112f94cf2d3e09636b54e76afffad0a08403d"
+    },
+    {
+      "source_path": "frontend/src/pages/Index.tsx",
+      "destination_path": "frontend/src/pages/Index.tsx",
+      "sha": "7130b547c228daa287e5d94bd1c8962dac16290a"
+    },
+    {
+      "source_path": "frontend/src/pages/Mentions.tsx",
+      "destination_path": "frontend/src/pages/Mentions.tsx",
+      "sha": "8b2a4797b4c5236448c0ffc0ba3efaac6f3e1de7"
+    },
+    {
+      "source_path": "frontend/src/pages/NotFound.tsx",
+      "destination_path": "frontend/src/pages/NotFound.tsx",
+      "sha": "b6c6fa59c71d8507cca6d60662c2a75a71b8ebf4"
+    },
+    {
+      "source_path": "frontend/src/pages/Settings.tsx",
+      "destination_path": "frontend/src/pages/Settings.tsx",
+      "sha": "43edefe53369b41fb99edb704a1d0b04bda259ac"
+    },
+    {
+      "source_path": "frontend/src/test/example.test.ts",
+      "destination_path": "frontend/src/test/example.test.ts",
+      "sha": "52e6d2f0ae9e6bc3ac85dbfeee6cd0b3d6e5d1c7"
+    },
+    {
+      "source_path": "frontend/src/pages/Sources.tsx",
+      "destination_path": "frontend/src/pages/Sources.tsx",
+      "sha": "5c85ae08423202a0d575f6d1ae8feda3f5334e55"
+    },
+    {
+      "source_path": "frontend/src/test/setup.ts",
+      "destination_path": "frontend/src/test/setup.ts",
+      "sha": "99fb803eaaf719e7a59b792953988b8b08ca9da5"
+    },
+    {
+      "source_path": "frontend/src/vite-env.d.ts",
+      "destination_path": "frontend/src/vite-env.d.ts",
+      "sha": "11f02fe2a0061d6e6e1f271b21da95423b448b32"
+    },
+    {
+      "source_path": "frontend/tsconfig.app.json",
+      "destination_path": "frontend/tsconfig.app.json",
+      "sha": "51f581dd91641b4c1f1219f646788e73cf6bf00c"
+    },
+    {
+      "source_path": "frontend/tailwind.config.ts",
+      "destination_path": "frontend/tailwind.config.ts",
+      "sha": "96d4647ece319ce4e80e0252045380953568c1a2"
+    },
+    {
+      "source_path": "frontend/tsconfig.node.json",
+      "destination_path": "frontend/tsconfig.node.json",
+      "sha": "3133162c20350e1741b94b8d2ff77b811bec8363"
+    },
+    {
+      "source_path": "frontend/tsconfig.json",
+      "destination_path": "frontend/tsconfig.json",
+      "sha": "6b68d80b7d92d0c4a5d774897f2bedfa95b42669"
+    },
+    {
+      "source_path": "frontend/vitest.config.ts",
+      "destination_path": "frontend/vitest.config.ts",
+      "sha": "ea055dbc6d2aaf278835eec141d3c83c192f6af4"
+    },
+    {
+      "source_path": "ml/.dockerignore",
+      "destination_path": "ml/.dockerignore",
+      "sha": "c941e6a8754f9d68545429bfe43d72388bdfdb9a"
+    },
+    {
+      "source_path": "ml/eda/eda_relevance.ipynb",
+      "destination_path": "ml/eda/eda_relevance.ipynb",
+      "sha": "923e91ebdd9a6027057fd07d1334100d32a2e437"
+    },
+    {
+      "source_path": "frontend/src/pages/Brands.tsx",
+      "destination_path": "frontend/src/pages/Brands.tsx",
+      "sha": "e2b26ab5439d796dd40e57e8e5df31e5f43d501e"
+    },
+    {
+      "source_path": "ml/docker-compose.yml",
+      "destination_path": "ml/docker-compose.yml",
+      "sha": "305e5ec7114f75457885f22ee69317f1cbc368a3"
+    },
+    {
+      "source_path": "ml/Dockerfile",
+      "destination_path": "ml/Dockerfile",
+      "sha": "56f6b4472084b53902bc29fd2f9cfae92f63831b"
+    },
+    {
+      "source_path": "frontend/vite.config.ts",
+      "destination_path": "frontend/vite.config.ts",
+      "sha": "da532985c1b716c5022df38ba5f7e8a813967159"
+    },
+    {
+      "source_path": "ml/README.md",
+      "destination_path": "ml/README.md",
+      "sha": "449016e58f0e4d33a275505b4ac7c9781b9e9ceb"
+    },
+    {
+      "source_path": "ml/eda/eda_sentiment.ipynb",
+      "destination_path": "ml/eda/eda_sentiment.ipynb",
+      "sha": "c88164767a1296c1ad376858f3cfce5f2e5dffb2"
+    },
+    {
+      "source_path": "ml/src/dataset/prepare_relevance.py",
+      "destination_path": "ml/src/dataset/prepare_relevance.py",
+      "sha": "596ed01a1ca0fe84efd6f7163f7d51966e0469ea"
+    },
+    {
+      "source_path": "ml/eda/sentiment.py",
+      "destination_path": "ml/eda/sentiment.py",
+      "sha": "8b2c440eaa5ec3542b44cc21715017137dd63259"
+    },
+    {
+      "source_path": "ml/src/dataset/downlaod_raw.py",
+      "destination_path": "ml/src/dataset/downlaod_raw.py",
+      "sha": "0c04a3f169c61230001469dfb1487c6221a8d433"
+    },
+    {
+      "source_path": "ml/src/models/clusterisation/configs/remove_tokens.txt",
+      "destination_path": "ml/src/models/clusterisation/configs/remove_tokens.txt",
+      "sha": "6e0dae105479681a228e40c14679f7d441792986"
+    },
+    {
+      "source_path": "ml/src/models/clusterisation/configs/prod_config.yml",
+      "destination_path": "ml/src/models/clusterisation/configs/prod_config.yml",
+      "sha": "a07aa9deb3c7420b7893e17143803430255d833b"
+    },
+    {
+      "source_path": "ml/src/models/clusterisation/configs/dev_config.yml",
+      "destination_path": "ml/src/models/clusterisation/configs/dev_config.yml",
+      "sha": "7d12d618c248c3bb8d3d1ae70a728a6cf1923fea"
+    },
+    {
+      "source_path": "ml/src/dataset/preprocess_sentiment.py",
+      "destination_path": "ml/src/dataset/preprocess_sentiment.py",
+      "sha": "fcb92030b0e61a5380f4b522ae47c4ee146d55b5"
+    },
+    {
+      "source_path": "ml/eda/relevance.py",
+      "destination_path": "ml/eda/relevance.py",
+      "sha": "13c901679a070e20b5ab96dfc2b6f21b4f7ee1d0"
+    },
+    {
+      "source_path": "ml/src/models/clusterisation/configs/stopwords_ru_domain.txt",
+      "destination_path": "ml/src/models/clusterisation/configs/stopwords_ru_domain.txt",
+      "sha": "6c06008b6c11cb07398f752729c29d33e17362d3"
+    },
+    {
+      "source_path": "ml/pyproject.toml",
+      "destination_path": "ml/pyproject.toml",
+      "sha": "d2489466cc1e3d1407b61b56f400c3c60fbe53a6"
+    },
+    {
+      "source_path": "ml/src/models/clusterisation/save.py",
+      "destination_path": "ml/src/models/clusterisation/save.py",
+      "sha": "7cea789d9d98c4dbed83418d8b37886ba535fffe"
+    },
+    {
+      "source_path": "ml/src/models/clusterisation/model.py",
+      "destination_path": "ml/src/models/clusterisation/model.py",
+      "sha": "20dfde42128a38edaa41821015e72d636328b7e6"
+    },
+    {
+      "source_path": "ml/src/models/clusterisation/example.py",
+      "destination_path": "ml/src/models/clusterisation/example.py",
+      "sha": "8c9cd9517894002f6b00b08f475855b192796abd"
+    },
+    {
+      "source_path": "ml/src/models/relevance/configs/dev_config.yml",
+      "destination_path": "ml/src/models/relevance/configs/dev_config.yml",
+      "sha": "621600dcbaea5d8162659255f7502847687e37da"
+    },
+    {
+      "source_path": "ml/src/models/relevance/configs/prod_config.yml",
+      "destination_path": "ml/src/models/relevance/configs/prod_config.yml",
+      "sha": "5b372fc97aa081e1152ee33118afb35f71dd46a2"
+    },
+    {
+      "source_path": "ml/src/models/relevance/model.py",
+      "destination_path": "ml/src/models/relevance/model.py",
+      "sha": "3c30f65f4bbea3650cef39f8e14a57394e34cc23"
+    },
+    {
+      "source_path": "ml/src/models/relevance/dev.py",
+      "destination_path": "ml/src/models/relevance/dev.py",
+      "sha": "da8710c036b1cad815c65d87dc6b42f7af6dedaf"
+    },
+    {
+      "source_path": "ml/src/models/relevance/eval.py",
+      "destination_path": "ml/src/models/relevance/eval.py",
+      "sha": "9a19ec8c69e27b78af72a63931358eef44527de6"
+    },
+    {
+      "source_path": "ml/src/models/relevance/train.py",
+      "destination_path": "ml/src/models/relevance/train.py",
+      "sha": "f9cbac7df0591318ce445b62798634200dd454d7"
+    },
+    {
+      "source_path": "ml/src/models/sentimental/configs/dev_config.yml",
+      "destination_path": "ml/src/models/sentimental/configs/dev_config.yml",
+      "sha": "1a8602dc2c2d74a48d4d1f9e75e10fff38d489ae"
+    },
+    {
+      "source_path": "ml/src/models/sentimental/configs/prod_config.yml",
+      "destination_path": "ml/src/models/sentimental/configs/prod_config.yml",
+      "sha": "87cd90e9824f493f00bdb9677a0b761ae2b0db1d"
+    },
+    {
+      "source_path": "ml/src/models/sentimental/eval.py",
+      "destination_path": "ml/src/models/sentimental/eval.py",
+      "sha": "84bc22a58e92ca10b8ecbc6674d7fdde3f07e662"
+    },
+    {
+      "source_path": "ml/src/models/sentimental/train.py",
+      "destination_path": "ml/src/models/sentimental/train.py",
+      "sha": "6f938677b55fdc236325d73abe66d194b2fa2c96"
+    },
+    {
+      "source_path": "ml/src/models/sentimental/dev.py",
+      "destination_path": "ml/src/models/sentimental/dev.py",
+      "sha": "f77f965d9b42771a0810de913560465c4231d881"
+    },
+    {
+      "source_path": "ml/src/server/configs/config.yml",
+      "destination_path": "ml/src/server/configs/config.yml",
+      "sha": "dcb824b19a1b4044b8c0eec5193c27a39a92dd1b"
+    },
+    {
+      "source_path": "ml/src/server/handlers/__init__.py",
+      "destination_path": "ml/src/server/handlers/__init__.py",
+      "sha": "69e20e8cacd8336ce454c5e3734c29509c98a9c4"
+    },
+    {
+      "source_path": "ml/src/s3config.py",
+      "destination_path": "ml/src/s3config.py",
+      "sha": "61277dcb95fffc019a7d26a6fd3d093fcb02e867"
+    },
+    {
+      "source_path": "ml/src/models/sentimental/model.py",
+      "destination_path": "ml/src/models/sentimental/model.py",
+      "sha": "1c41f3417063ac8feec39b11f9cb2f4660245fdf"
+    },
+    {
+      "source_path": "ml/src/server/handlers/clusterization.py",
+      "destination_path": "ml/src/server/handlers/clusterization.py",
+      "sha": "551539940548a4b0a7f665eeb9998398b4c50631"
+    },
+    {
+      "source_path": "ml/src/server/handlers/sentiment.py",
+      "destination_path": "ml/src/server/handlers/sentiment.py",
+      "sha": "900b97c0ee6ac37a8eb4e8ec25e6c88d376674e7"
+    },
+    {
+      "source_path": "ml/src/server/handlers/health.py",
+      "destination_path": "ml/src/server/handlers/health.py",
+      "sha": "340db1551866806b0a09362e8420650d9023e5cb"
+    },
+    {
+      "source_path": "ml/src/server/handlers/relevance.py",
+      "destination_path": "ml/src/server/handlers/relevance.py",
+      "sha": "6074ba34698911098b67b835d1bfb10303ff1894"
+    },
+    {
+      "source_path": "ml/src/server/server.py",
+      "destination_path": "ml/src/server/server.py",
+      "sha": "df61ce94f9a51917b222fb79b2c4f8fff203d0ac"
+    },
+    {
+      "source_path": "ml/src/server/schemas.py",
+      "destination_path": "ml/src/server/schemas.py",
+      "sha": "b69846d16cdf27a0edfef68c2d743ce7611c08f7"
+    },
+    {
+      "source_path": "ml/uv.lock",
+      "destination_path": "ml/uv.lock",
+      "sha": "ca7c51968a838d635e953562052b653b27e5bd8c"
+    },
+    {
+      "source_path": "ml/train.sh",
+      "destination_path": "ml/train.sh",
+      "sha": "6d25e6fe4dbda47be47723b53480944d5d92eb43"
+    },
+    {
+      "source_path": "frontend/public/favicon.ico",
+      "destination_path": "frontend/public/favicon.ico",
+      "sha": "718d6fea4835ec2d246af9800eddb7ffb276240c"
+    }
+  ]
+}
