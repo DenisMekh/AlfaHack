@@ -1,0 +1,21 @@
+# Secrets and local data
+.env
+.env.*
+!.env.example
+secrets/
+data/raw/
+data/private/
+models/
+*.gguf
+*.safetensors
+*.csv
+*.pdf
+# Add reviewed synthetic fixtures explicitly as JSON
+__pycache__/
+.venv/
+.pytest_cache/
+node_modules/
+dist/
+coverage/
+*.log
+.DS_Store
